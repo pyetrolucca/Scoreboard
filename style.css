@@ -1,0 +1,74 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilização Padrão */
+body {
+    background-color: #292929;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    margin: 0px;
+    display: flex;
+    gap: 145px;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+div#cronometer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    background-color: #212121;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 55px;
+}
+
+div#cronometer h1 {
+    font-weight: 300;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* Placar */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+}
+
+#popupChamar {
+    position: relative;
+    float: right;
+}
+
+main h1 {
+    font-size: 250px;
+    margin: 0px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+main i {
+    font-size: 50px;
+}
+
+/* Popup de Configuração */
+aside {
+    background-color: #212121;
+    font-size: 35px;
+    display: flex;
+    border-radius: 25px;
+    padding: 10px;
+}

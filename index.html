@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- Informações da Página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- Biblioteca FontAwesome -->
+    <script src="https://kit.fontawesome.com/7ad5ef40a7.js" crossorigin="anonymous"></script>
+
+    <!-- Biblioteca LottieFiles -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+    <!-- Biblioteca animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- Links com outros arquivos -->
+    <script src="scripts/scoreboard.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ------------------------------------------------------------ -->
+</head>
+<body>
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- Header -->
+    <header>
+        <div id="cronometer">
+            <h1>00:00</h1>
+            <div id="Anim1"></div>
+        </div>
+    </header>
+
+    <!-- Parte Principal (placar etc.) -->
+    <main>
+        <h1 id="Tm1" onclick="team(1)" class="score">0</h1>
+        <i class="fa-solid fa-xmark"></i>
+        <h1 id="Tm2" onclick="team(2)" class="score">0</h1>
+    </main>
+
+    <!-- Popup de Configuração -->
+        <aside>
+            <i class="fa-solid fa-arrow-rotate-right" onclick="Reset()"></i>
+        </aside>
+
+    <!-- Rodapé -->
+    <footer>
+
+    </footer>
+
+    <!-- ------------------------------------------------------------ -->
+</body>
+</html>
